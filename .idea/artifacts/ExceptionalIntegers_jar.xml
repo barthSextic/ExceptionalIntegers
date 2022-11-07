@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ExceptionalIntegers:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ExceptionalIntegers_jar</output-path>
+    <root id="archive" name="ExceptionalIntegers.jar">
+      <element id="module-output" name="ExceptionalIntegers" />
+    </root>
+  </artifact>
+</component>

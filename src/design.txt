@@ -1,0 +1,56 @@
+>>>>  Input
+Can literally be anything, just some String
+
+>>>> Process
+MAKE ARRAY LIST
+
+Loop through the String input (ex: 12 23 cat 34 45 dog 56 67)
+
+Make converter method to try and build an /Integer/ object from the string
+    Try string object, and try to /parse/ it to an /int/
+        If int:
+            print primitive int
+            return Integer object to main method
+        Else :
+            throw NumberFormatException to main
+
+Call converter method from main in try - catch block
+    If object is built successfully, add to array list
+    Else NumberFormatException is caught and outputs message
+
+
+
+////////////////////////////////////////////////////////////////
+
+
+Example:
+
+> java ExceptionalIntegers 12 23 cat 34 45 dog 56 67
+Converter method says integer OK - 12
+Converter method says integer OK - 23
+Catch block says the argument "cat" is ignored because cat
+Converter method says integer OK - 34
+Converter method says integer OK - 45
+Catch block says the argument "dog" is ignored because dog
+Converter method says integer OK - 56
+Converter method says integer OK - 67
+
+Vector contents are:
+Item 0 is 12
+Item 1 is 23
+Item 2 is 34
+Item 3 is 45
+Item 4 is 56
+Item 5 is 67
+
+
+
+
+Sets jdk in cmd:
+set path=%path%;C:\Users\theri\.jdks\openjdk-18.0.2.1\bin
+
+Sets file path in cmd:
+C:\Users\theri\IdeaProjects\ExceptionalIntegers\src
+
+run with:
+java Main.java [args]
